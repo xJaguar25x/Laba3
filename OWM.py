@@ -2,7 +2,7 @@
 import pyowm #подключаем библиотеку Pyown
 import time
 
-owm = pyowm.OWM("0d904...505f") # инициализируем библиотеку ключем
+owm = pyowm.OWM("0d904a7dd5e39203f16585503df7505f") # инициализируем библиотеку ключем
 observation = owm.weather_at_place("Rostov-on-Don,ru") # получаем данные из Ростова на дону
 weather = observation.get_weather() # Получаем погодные данные
 location = observation.get_location() # Получаем данные местоположения

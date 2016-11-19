@@ -9,7 +9,7 @@ import OWM
 print ('VkBot_v1.0 считывает сообщения...')
 
 # Авторизируем сессию с помощью access token
-session = vk.Session('f96af...fc151')
+session = vk.Session('f96af61ea309631edd77daccea43268fe475480eef67bc9173c866f0e5f61eda5f5bd3d803715032fc151')
 
 # Или с помощью id приложения и данных авторизации пользователя
 # session = vk.AuthSession('app id','login','pass')
